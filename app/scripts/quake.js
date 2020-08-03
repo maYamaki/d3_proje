@@ -2,7 +2,7 @@ const canvas = d3.select(".canva");
 
 var width = 600;
 var height = 600;
-const api_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_hour.geojson"
+const api_url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
 const svg = canvas.append("svg")
         .attr("width", width)
         .attr("height", height);
